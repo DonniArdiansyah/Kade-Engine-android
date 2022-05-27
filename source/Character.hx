@@ -309,7 +309,7 @@ class Character extends FlxSprite
 				flipX = true;
 				
 			case 'bf_eddsworld':
-				var tex = Paths.getSparrowAtlas('characters/BOYFRIEND', 'shared');
+				var tex = Paths.getSparrowAtlas('characters/bf_eddsworld', 'shared');
 				frames = tex;
 
 				trace(tex.frames.length);
