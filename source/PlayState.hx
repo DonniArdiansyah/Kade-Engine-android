@@ -768,6 +768,16 @@ class PlayState extends MusicBeatState
 
 					add(stageCurtains);
 			}
+			case 'edd-house':
+				{
+						defaultCamZoom = 0.9;
+						curStage = 'edd-house';
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('edd-house'));
+						bg.antialiasing = true;
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						add(bg);
+				}
 		}
 		}
 		//defaults if no gf was found in chart
@@ -874,6 +884,10 @@ class PlayState extends MusicBeatState
 				// evilTrail.changeGraphic()
 				add(evilTrail);
 				// evilTrail.scrollFactor.set(1.1, 1.1);
+				boyfriend.x += 200;
+				boyfriend.y += 220;
+				gf.x += 180;
+				gf.y += 300;
 		}
 
 		if (FlxG.save.data.char)
