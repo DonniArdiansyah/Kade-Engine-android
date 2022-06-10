@@ -877,8 +877,8 @@ class PlayState extends MusicBeatState
 			case 'edd-house':
 				{
 						defaultCamZoom = 0.9;
-						curStage = 'sky';
-						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('sky'));
+						curStage = 'edd-house';
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('edd-house'));
 						bg.antialiasing = true;
 						bg.scrollFactor.set(0.9, 0.9);
 						bg.active = false;
