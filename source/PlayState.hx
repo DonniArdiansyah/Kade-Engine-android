@@ -884,6 +884,8 @@ class PlayState extends MusicBeatState
 				// evilTrail.changeGraphic()
 				add(evilTrail);
 				// evilTrail.scrollFactor.set(1.1, 1.1);
+				
+				
 				boyfriend.x += 200;
 				boyfriend.y += 220;
 				gf.x += 180;
