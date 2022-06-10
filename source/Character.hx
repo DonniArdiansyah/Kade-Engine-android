@@ -340,7 +340,7 @@ class Character extends FlxSprite
 
 				flipX = true;
 				
-			case 'bf_eddsworld':
+			case 'bf-eddsworld':
 				var tex = Paths.getSparrowAtlas('characters/bf_eddsworld', 'shared');
 				frames = tex;
 
@@ -581,7 +581,7 @@ class Character extends FlxSprite
 
 				trace(tex.frames.length);
 
-				animation.addByPrefix('idle', 'BF idle dance', 24, false);
+				animation.addByPrefix('idle', 'idle', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
 				animation.addByPrefix('singLEFT', 'BF NOTE LEFT0', 24, false);
 				animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT0', 24, false);
