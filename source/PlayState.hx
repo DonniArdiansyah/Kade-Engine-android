@@ -1118,16 +1118,6 @@ class PlayState extends MusicBeatState
 		{
 			switch (StringTools.replace(curSong," ", "-").toLowerCase())
 			{
-			case 'edd-house':
-				{
-						defaultCamZoom = 0.9;
-						curStage = 'edd-house';
-						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('edd-house'));
-						bg.antialiasing = true;
-						bg.scrollFactor.set(0.9, 0.9);
-						bg.active = false;
-						add(bg);
-				}
 				case "winter-horrorland":
 					var blackScreen:FlxSprite = new FlxSprite(0, 0).makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
 					add(blackScreen);
