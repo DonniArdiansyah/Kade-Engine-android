@@ -1,4 +1,5 @@
 bf
+bf-eddsworld
 dad
 gf
 spooky
@@ -15,3 +16,4 @@ bf-pixel
 senpai
 senpai-angry
 spirit
+edd-original
