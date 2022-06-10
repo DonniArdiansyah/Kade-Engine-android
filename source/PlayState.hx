@@ -874,6 +874,15 @@ class PlayState extends MusicBeatState
 				// evilTrail.changeGraphic()
 				add(evilTrail);
 				// evilTrail.scrollFactor.set(1.1, 1.1);
+			case 'edd-house':
+				{
+						defaultCamZoom = 0.9;
+						curStage = 'sky';
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('sky'));
+						bg.antialiasing = true;
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						add(bg);
 				}
 
 
