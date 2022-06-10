@@ -64,7 +64,7 @@ class Character extends FlxSprite
 
 			case 'gf-gone':
 				// GIRLFRIEND CODE
-				tex = Paths.getSparrowAtlas('characters/gf_eddsworld');
+				tex = Paths.getSparrowAtlas('characters/gf_gone');
 				frames = tex;
 				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
