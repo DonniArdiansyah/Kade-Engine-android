@@ -592,15 +592,6 @@ class Character extends FlxSprite
 				addOffset("singRIGHT", -80, 172);
 				addOffset("singLEFT", 70, -157);
 				addOffset("singDOWN", -61, 87);
-				addOffset("singUPmiss", -29, 27);
-				addOffset("singRIGHTmiss", -30, 21);
-				addOffset("singLEFTmiss", 12, 24);
-				addOffset("singDOWNmiss", -11, -19);
-				addOffset("hey", 7, 4);
-				addOffset('firstDeath', 37, 11);
-				addOffset('deathLoop', 37, 5);
-				addOffset('deathConfirm', 37, 69);
-				addOffset('scared', -4);
 
 				playAnim('idle');
 
