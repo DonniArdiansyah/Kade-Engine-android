@@ -392,16 +392,6 @@ class PlayState extends MusicBeatState
 
 		switch(stageCheck)
 		{
-			case 'edd-house':
-			{
-				defaultCamZoom = 0.9;
-				curStage = 'edd-house';
-				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('edd-house'));
-				bg.antialiasing = true;
-				bg.scrollFactor.set(0.9, 0.9);
-				bg.active = false;
-				add(bg);
-			}
 			case 'halloween': 
 			{
 				curStage = 'spooky';
