@@ -57,6 +57,7 @@ class StoryMenuState extends MusicBeatState
 		"MOMMY MUST MURDER",
 		"RED SNOW",
 		"Hating Simulator ft. Moawling"
+		"27 Durdam Lane"
 	];
 
 	var txtWeekTitle:FlxText;
